@@ -1,0 +1,35 @@
+.signin{
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    &-right{
+      display: flex;
+      align-items: center;
+      &-form{
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+        &-btn{
+          height: 44px;
+          width: 335px;
+          border-radius: 80px;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: 700;
+          color: #FFF;
+          background: var(--Grey, #C0C0C0);
+        }
+        &-registerbtn{
+          text-align: center;
+          transform: translateY(50px);
+        }
+      }
+    }
+  }
+}
+
+a{
+  color: var(--Maine-blue, #5458EA);
+}
